@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  max-width: 100%;
+  padding: 1rem 0;
+  margin: 0 auto;
+}
+
+.prefixIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 2;
+  font-size: 1rem;
+}
+
+.label {
+  flex-grow: 12;
+}
+
+.labelWithOneIcon {
+  flex-grow: 10;
+}
+
+.labelWithTwoIcon {
+  flex-grow: 8;
+}
+
+.suffixIcon {
+  display: flex;
+  justify-content: center;
+  flex-grow: 2;
+}

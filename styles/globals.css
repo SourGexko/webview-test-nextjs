@@ -1,9 +1,19 @@
 html,
 body {
+  border-radius: 50px;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Spoqa Han Sans Neo", -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  letter-spacing: -0.04rem;
+  user-select: none;
+  --toastify-color-success: #85c88a;
+  --toastify-color-warning: #f8cb2e;
+  --toastify-color-error: #ee5007;
+  --rdp-accent-color: #f8cb2e;
+  --rdp-outline: 1px solid var(--rdp-accent-color);
+  --rdp-outline-selected: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 a {
